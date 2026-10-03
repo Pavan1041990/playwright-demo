@@ -9,7 +9,7 @@ await page.locator("[aria-label='Account']").click();
 await page.locator("[aria-label='Log in']").click();
 await page.locator("[type='tel']").fill("9611128287");
 await page.locator("class.recaptcha-checkbox-checkmark").click();
-
+await page.pause();
 })
 
 
